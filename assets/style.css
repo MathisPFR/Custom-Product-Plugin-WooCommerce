@@ -1,0 +1,30 @@
+/* Style du champ input "Message personnalisé pour la carte" */
+#custom_message_31203_field {
+    margin-top: 30px;
+}
+
+#custom_message_31203_field textarea {
+    padding: 10px !important;
+    border: 2px solid #38a169 !important; /* Couleur de la bordure */
+    border-radius: 5px !important;
+    background-color: #f9f9f9 !important;
+    font-size: 16px !important;
+    color: #333 !important;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1) !important;
+    transition: border-color 0.3s ease, box-shadow 0.3s ease !important;
+}
+
+/* Accentuation lors du survol ou de la sélection */
+#custom_message_31203_field textarea:focus {
+    border-color: #2c7a7b !important; /* Couleur lors de la sélection */
+    box-shadow: 0 0 10px rgba(56, 161, 105, 0.5) !important;
+    outline: none !important;
+}
+
+/* Style du label */
+#custom_message_31203_field label {
+    font-size: 18px !important;
+    font-weight: bold !important;
+    color: #2d3748 !important;
+    display: block !important;
+}
